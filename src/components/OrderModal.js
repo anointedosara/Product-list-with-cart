@@ -99,7 +99,7 @@ function OrderModal() {
 
         <button
           onClick={clearCart}
-          className="w-full p-4 bg-red rounded-4xl text-[16px] text-white hover:bg-red-900 transition-all"
+          className="w-full p-4 bg-red-700 rounded-4xl text-[16px] text-white hover:bg-red-900 transition-all"
         >
           Start New Order
         </button>

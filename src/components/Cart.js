@@ -19,7 +19,7 @@ function Cart() {
 
   return (
     <div className="bg-white h-max p-5 rounded-lg sticky top-5">
-      <h1 className="text-[18px] text-red font-bold">
+      <h1 className="text-[18px] text-red-700 font-bold">
         Your Cart ({totalCount})
       </h1>
 
@@ -52,7 +52,7 @@ function Cart() {
                   </p>
 
                   <div className="flex items-center">
-                    <p className="text-[14px] font-bold text-red mr-5">
+                    <p className="text-[14px] font-bold text-red-700 mr-5">
                       {cartItem.count}x
                     </p>
 
@@ -88,7 +88,7 @@ function Cart() {
             <h4 className="text-[25px] font-bold text-rose-900">${totalPrice.toFixed(2)}</h4>
           </div>
           <div className="flex items-center justify-center text-[14px] text-rose-500 bg-rose-50 p-4 rounded-[10px] mb-5"><Image className="size-5 mr-2" src="icon-carbon-neutral.svg" alt="" width={1000} height={1000} /> <p>This is a <strong className="font-bold mx-1"> carbon-neutral </strong> delivery</p></div>
-          <button className="w-full p-4 bg-red rounded-4xl text-[16px] text-rose-50 hover:bg-red-900 transition-all" onClick={() => setIsModalOpen(true)}>Confirm Order</button>
+          <button className="w-full p-4 bg-red-700 rounded-4xl text-[16px] text-rose-50 hover:bg-red-900 transition-all" onClick={() => setIsModalOpen(true)}>Confirm Order</button>
         </div>
       )}
     </div>

@@ -23,7 +23,7 @@ function Desserts() {
             <div className="group" key={i}>
               <Image
                 className={`w-full rounded-lg h-[260px] object-cover transition-all
-                ${isSelected ? "ring-3 ring-red" : ""}`}
+                ${isSelected ? "ring-3 ring-red-700" : ""}`}
                 src={item.image.mobile}
                 alt={item.name}
                 width={1000}
@@ -41,7 +41,7 @@ function Desserts() {
                   {item.name}
                 </h2>
 
-                <span className="text-[13px] text-red font-bold">
+                <span className="text-[13px] text-red-700 font-bold">
                   ${item.price.toFixed(2)}
                 </span>
               </div>
