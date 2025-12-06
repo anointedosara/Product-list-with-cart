@@ -18,7 +18,7 @@ function Cart() {
 }, 0);
 
   return (
-    <div className="bg-white h-max p-5 rounded-lg sticky top-[20px]">
+    <div className="bg-white h-max p-5 rounded-lg sticky top-5">
       <h1 className="text-[18px] text-red font-bold">
         Your Cart ({totalCount})
       </h1>
