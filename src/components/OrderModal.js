@@ -29,7 +29,7 @@ function OrderModal() {
 
   return (
     <div className="fixed inset-0 bg-black/40 flex items-center justify-center p-0 md:p-5">
-      <div className="absolute md:static rounded-b-none bg-white bottom-0 w-full max-w-full md:max-w-[600px] max-h-[90vh] md:max-h-full overflow-auto md:rounded-2xl p-5 md:p-10 animate-scaleUp">
+      <div className="absolute md:static rounded-b-none rounded-t-2xl bg-white bottom-0 w-full max-w-full md:max-w-[600px] max-h-[90vh] md:max-h-full overflow-auto md:rounded-2xl p-5 md:p-10 animate-scaleUp">
 
         <div className="mb-4">
           <Image
